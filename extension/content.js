@@ -9,7 +9,7 @@ var contacts,
 
 async function callChatGPT(promptText, callback) {
   const chatGPTApiUrl = "https://api.openai.com/v1/chat/completions";
-  const chatGPTApiKey = "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";
+  const chatGPTApiKey = "";
   try {
     const response = await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
